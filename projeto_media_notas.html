@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<h3>Calculando Nota em Química</h3>
+
+
+<script>
+
+alert(" Conclusão Módulo III - Calculando Notas");
+
+document.write("<br>" + " Em determinada escola, a nota da prova de química no boletim é calculada pela ");
+document.write("<br>" + "média entre a nota de duas provas, somadas com as notas em tarefas e trabalhos. ");
+document.write("<br>" + "<br>" + "João tirou 50 na Prova 1, 30 na Prova 2, 10 em tarefas e 10 em trabalhos.");
+document.write("<br>" + "<br>" + "<h3>" + " Sabendo disso, qual foi a nota de João no boletim? " + "</h3>");
+
+
+var notaProva1Quimica = 50;
+var notaProva2Quimica = 30;
+var notaTarefaQuimica = 10;
+var notaTrabalhosQuimica = 10;
+
+var mediaProvas = notaProva1Quimica + notaProva2Quimica / 2;
+var somaTarefaTrabalhos = notaTarefaQuimica + notaTrabalhosQuimica;
+
+var totalNotas = mediaProvas + somaTarefaTrabalhos;
+
+document.write("A nota de João no boletim foi de " + totalNotas + ".");
+</script>
+
+<br>
+<br>
+ Gostou do conteúdo? Acesse o <a href=https://www.alura.com.br> Alura </a> para aprender programação desde o básico e montar projetos criativos assim como eu.
